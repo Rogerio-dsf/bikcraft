@@ -45,7 +45,7 @@
   width: 18px;
   height: 10px;
   margin-left: 12px;
-  background-image: url(".././img/icones/seta.svg");
+  background-image: url("././img/icones/seta.svg");
   transition: transform.2s;
 }
 
@@ -105,7 +105,7 @@
 }
 
 .titulo {
-  background: url(".././img/dec/top-right.svg") no-repeat top right 20px;
+  background: url("././img/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .titulo p {

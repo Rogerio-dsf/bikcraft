@@ -1,5 +1,3 @@
-
-
 .seguros-bg {
   background-color: var(--cor-11);
 }
@@ -8,7 +6,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   align-items: center;
 }
@@ -39,7 +37,6 @@
   text-align: right;
 }
 
-
 .seguros-item ul {
   grid-column: 1 / -1;
   margin-bottom: 32px;
@@ -60,7 +57,7 @@
   display: inline-block;
   width: 13px;
   height: 9px;
-  background-image: url("../../img/icones/lista.svg");
+  background-image: url(".././img/icones/lista.svg");
   position: absolute;
   left: -22px;
 }

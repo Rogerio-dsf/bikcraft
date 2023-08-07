@@ -1,5 +1,3 @@
-
-
 .perguntas {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -11,7 +9,7 @@
 
 .perguntas div + div {
   margin-top: 10px;
-} 
+}
 
 .perguntas dl > div {
   padding: 20px;
@@ -47,8 +45,8 @@
   display: inline-block;
   width: 14px;
   height: 6px;
-  background-image: url("../../img/icones/seta-abrir.svg");
-  transition: .3s;
+  background-image: url(".././img/icones/seta-abrir.svg");
+  transition: 0.3s;
 }
 
 .perguntas button:hover::after,
@@ -58,8 +56,8 @@
 
 .perguntas dl div:hover {
   transform: translateX(7px);
-  box-shadow:  1px 12px 20px 1px var(--cor-5);
-  transition: .25s;
+  box-shadow: 1px 12px 20px 1px var(--cor-5);
+  transition: 0.25s;
 }
 
 .js .perguntas dd {
@@ -76,7 +74,7 @@
   max-width: 80ch;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .perguntas {
     padding-top: 60px;
     padding-bottom: 60px;
